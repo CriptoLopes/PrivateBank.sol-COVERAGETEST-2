@@ -1,2 +1,48 @@
 # PrivateBank.sol-COVERAGETEST-2
-TEst Coverage for Vottun World Activity using HardHat
+Test Coverage for Vottun World Activity using HardHat
+
+# Private Bank Test
+
+This repository contains tests for the PrivateBank smart contract.
+
+## Prerequisites
+
+- Node.js
+- npm
+- Hardhat
+
+## Setup
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/private-bank-test.git
+    cd private-bank-test
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Compile the contracts:
+    ```bash
+    npx hardhat compile
+    ```
+
+4. Run the tests:
+    ```bash
+    npx hardhat test
+    ```
+
+## Contract Description
+
+`PrivateBank.sol` is a smart contract that allows users to deposit and withdraw Ether. It maintains a balance mapping for each user.
+
+## Test Coverage
+
+The tests cover the following scenarios:
+- Depositing Ether
+- Withdrawing Ether
+- Checking contract balance
+- Handling zero balance withdrawals
+- Handling multiple users
