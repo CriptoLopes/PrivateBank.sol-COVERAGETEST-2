@@ -27,7 +27,11 @@ This repository contains tests for the PrivateBank smart contract.
 3. Compile the contracts:
     ```bash
     npx hardhat compile
-    ```
+--------------------------------------------------------
+Compile the Contracts:
+npx hardhat compile
+Nota: he tendido que modificar la linea del PrivateBank.sol a lo siguiente:“ pragma solidity ^0.8.0; // o la versión que tengas configurada en tu proyecto”
+--------------------------------------------------------
 
 4. Run the tests:
     ```bash
